@@ -2,7 +2,10 @@ import React, { PropTypes } from 'react';
 import NavBar from './NavBar';
 
 const styles = {
-  border: '1px solid black',
+  display: 'flex',
+  flexFlow: 'column',
+  height: '100%',
+  width: '100%',
 };
 
 export default class MainContainer extends React.Component {
