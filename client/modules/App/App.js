@@ -44,6 +44,7 @@ export class App extends Component {
               },
             ]}
           />
+          <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
           <div className={styles.container}>
             {this.props.children}
           </div>
