@@ -65,3 +65,26 @@
   transform: translateX(-50%);
 }
 
+.graph {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.idea {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.checklist {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.teamwork {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
