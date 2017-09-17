@@ -1,5 +1,6 @@
 import React from 'react';
 import { redirect } from '../../routes.js';
+import { Form, Input, Button } from 'semantic-ui-react';
 
 class Login extends React.Component {
   constructor(props){
@@ -31,11 +32,21 @@ class Login extends React.Component {
   render() {
       return (
         <div>
-          <form>
-            <input type="text" placeholder="Enter Username" onChange={this.handleUsernameChange}/> <br/>
-            <input type="password" placeholder="Enter Password" onChange={this.handlePasswordChange}/> <br/>
-            <button onClick={this.submitIfValid}>Log Me In!</button>
-          </form>
+          <hr/>
+          <Form.Field>
+            <label>Enter Username</label> <br/>
+            <Input type='text' onChange={this.handleUsernameChange}/>
+          </Form.Field>
+
+          <Form.Field>
+            <label>Enter Password</label> <br/>
+            <Input type='password' onChange={this.handlePasswordChange}/>
+          </Form.Field>
+
+          <Button onClick={this.submitIfValid}>
+            Log me in!
+          </Button>
+          <hr/>
         </div>
       );
   }
