@@ -12,11 +12,7 @@ export default class ChatBot extends React.Component {
     return (
       <div className={styles.mainbody}>
         <Header />
-        <iframe
-          className={styles.botbody}
-          src="https://webchat.botframework.com/embed/surviBot?s=xhcgLp9Hd4M.cwA.Yiw.FUwe__hM7qyhfCxc3CzkWkV7XCu-HtNxnc5NXxA37Qw">
-          }
-        </iframe>
+        <iframe src='https://webchat.botframework.com/embed/maxbi?s=EvK7YdJ3dZo.cwA.ego._C-_B5m2dEzv8nVhNS-jCP8jk0BolA6g3V5aBYl9ICs'></iframe>
       </div>
     );
   }
