@@ -12,7 +12,7 @@ export default class ChatBot extends React.Component {
     return (
       <div className={styles.mainbody}>
         <Header />
-        <iframe src='https://webchat.botframework.com/embed/maxbi?s=EvK7YdJ3dZo.cwA.ego._C-_B5m2dEzv8nVhNS-jCP8jk0BolA6g3V5aBYl9ICs'></iframe>
+        <iframe src='http://webchat.botframework.com/embed/maxbi?&t=EvK7YdJ3dZo.dAA.NgBPAGkAbgBhADgASQBOAEsAcQBqADYAagB1AG0AdgBOAGoAVABEAFkAUgA.8K6RIt8v0wE.tGDNpzQINRQ.EPODG_8qO9EshT9XAmRB_TzNb3omqHR4T89K1jF7m_c'></iframe>
       </div>
     );
   }
