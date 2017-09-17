@@ -19,7 +19,6 @@ export default class MainContainer extends React.Component {
   render() {
     return (
       <div style={styles}>
-        <NavBar />
         {this.props.children}
       </div>
     );
