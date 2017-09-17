@@ -2,7 +2,7 @@
 import React from 'react';
 import { Route, IndexRoute, browserHistory } from 'react-router';
 import App from './modules/App/App';
-import Login from './modules/Login/Login.js'
+import Login from './modules/Login/Login.js';
 
 // Routes
 import Main from './modules/MainContainer/MainContainer';
@@ -27,7 +27,6 @@ import ChatBot from './modules/ChatBot/ChatBot';
 // }
 
 export const redirect = (route) => {
-  console.log('route ', route);
   browserHistory.push(route);
 };
 
@@ -36,7 +35,7 @@ export const redirect = (route) => {
 export default (
   <Route path="/" component={App}>
     <Route component={Main}>
-      <IndexRoute component={Login}/>
+      <IndexRoute component={Login} />
       <Route path="/surveys" component={Surveys} />
       <Route path="/chatbot" component={ChatBot} />
     </Route>

@@ -1,9 +1,20 @@
 import React from 'react';
 import { redirect } from '../../routes.js';
 
+const styles = {
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    position: 'absolute',
+    backgroundColor: 'white',
+    opacity: 0.8,
+    zIndex: 99,
+  },
+};
+
 const NavBar = () => (
-  <div>
-    <h1>this is the navbar</h1>
+  <div style={styles.container}>
     <button onClick={() => redirect('/')}>Login</button>
     <button onClick={() => redirect('surveys')}>Surveys</button>
     <button onClick={() => redirect('chatbot')}>ChatBot</button>
