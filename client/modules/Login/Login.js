@@ -1,6 +1,8 @@
 import React from 'react';
 import { redirect } from '../../routes.js';
-import { Form, Input, Button } from 'semantic-ui-react';
+import { Form, Input, Button, Segment } from 'semantic-ui-react';
+import styles from './Login.css';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Login extends React.Component {
   constructor(props){
@@ -31,25 +33,25 @@ class Login extends React.Component {
    
   render() {
       return (
-        <div>
-          <hr/>
-          <Form.Field>
+        <Form className={styles.login}>
+        <br />
+          <Form.Field required className={styles.input}>
             <label>Enter Username</label> <br/>
             <Input type='text' onChange={this.handleUsernameChange}/>
           </Form.Field>
-
-          <Form.Field>
+         <br />
+          <Form.Field required className={styles.input}>
             <label>Enter Password</label> <br/>
             <Input type='password' onChange={this.handlePasswordChange}/>
           </Form.Field>
-
-          <Button onClick={this.submitIfValid}>
-            Log me in!
-          </Button>
-          <hr/>
-        </div>
+         <br />
+         <Button className='loginButton' basic color='teal' onClick={this.submitIfValid}>
+           Log me in!
+         </Button>
+       </Form>
       );
   }
 };
 
 export default Login;
+

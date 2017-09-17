@@ -1,3 +1,27 @@
- .login {
- margin: 15,
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.login {
+ 	margin: auto;
+	width: 100%;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#43C6AC), to(#F8FFAE));
+  	background: -webkit-linear-gradient(top, #43C6AC,#F8FFAE);
+	padding: 2em;
+	text-align: center;
+	position: relative;
+}
+
+.input {
+	
+	font-weight: lighter;
+	font-family: "Open Sans", sans-serif;
+	width: 50%;
+	margin: auto;
+	align-items: center;
+	-webkit-box-align: center;
+	position:relative;
+	left: 25%;
+}
+
+.button {
+	-webkit-transition: 5s;
 };
