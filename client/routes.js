@@ -35,14 +35,11 @@ export const redirect = (route) => {
 // More info: http://blog.mxstbr.com/2016/01/react-apps-with-pages/
 export default (
   <Route path="/" component={App}>
-<<<<<<< HEAD
-    <IndexRoute component={Login}/>
-=======
     <Route component={Main}>
-      <IndexRoute component={Surveys} />
+      <IndexRoute component={Login}/>
+      <Route path="/surveys" component={Surveys} />
       <Route path="/chatbot" component={ChatBot} />
     </Route>
->>>>>>> 48a6652beaada03937230be3f885766c4fe974f5
   </Route>
 
 );
