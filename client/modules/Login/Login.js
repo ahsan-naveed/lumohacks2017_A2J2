@@ -34,6 +34,7 @@ class Login extends React.Component {
   render() {
       return (
         <Form className={styles.login}>
+        <h1 className='title'>Welcome!</h1>
         <br />
           <Form.Field required className={styles.input}>
             <label>Enter Username</label> <br/>

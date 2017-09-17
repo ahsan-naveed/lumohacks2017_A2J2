@@ -17,7 +17,7 @@ const styles = {
 
 const NavBar = () => (
   <div style={styles.container}>
-  	<Button.Group attached='top'>
+  	<Button.Group>
 	    <Button onClick={() => redirect('/')}>Login</Button>
 	    <Button onClick={() => redirect('surveys')}>Surveys</Button>
 	    <Button onClick={() => redirect('chatbot')}>ChatBot</Button>
