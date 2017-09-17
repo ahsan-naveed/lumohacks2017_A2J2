@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './header/header.js';
+import styles from './ChatBot.css';
 
 export default class ChatBot extends React.Component {
   constructor(props) {
@@ -8,9 +9,12 @@ export default class ChatBot extends React.Component {
   }
   render() {
     return (
-    	<div>
+    	<div className={styles.mainbody}>
 	      <Header/>
-	      <h2>Chatbot interface</h2>
+        <iframe className={styles.botbody}
+          src='https://webchat.botframework.com/embed/surviBot?s=xhcgLp9Hd4M.cwA.Yiw.FUwe__hM7qyhfCxc3CzkWkV7XCu-HtNxnc5NXxA37Qw'>
+        }
+        </iframe>	     
 	    </div>
     );
   }
