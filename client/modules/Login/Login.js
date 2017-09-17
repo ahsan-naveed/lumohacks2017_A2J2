@@ -4,6 +4,28 @@ import { Form, Input, Button, Segment } from 'semantic-ui-react';
 import styles from './Login.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import robot from './robot.png';
+const myStyles = {
+  background: {
+    backgroundColor: '#93dc66',
+  },
+  imageContainer: {
+    position: 'relative',
+    width: '100%',
+    height: 150,
+  },
+  bodyText: {
+    display: 'flex',
+    flexFlow: 'column',
+    alignItems: 'center',
+    textAlign: 'center',
+    padding: '0 2rem',
+    marginTop: '2rem',
+    fontSize: '2em',
+    color: 'white',
+    textShadow: '1px 1px #707070',
+  },
+};
+
 
 class Login extends React.Component {
   constructor(props){
@@ -36,7 +58,7 @@ class Login extends React.Component {
       return (
         <Form className={styles.login}>
         <img className={styles.robot} height={175} width={175} src={robot} />
-        <h1 className='title'>MAXBY</h1>
+        <h1 className='title' style={myStyles.bodyText}>MAXBY</h1>
         <br />
           <Form.Field required className={styles.input}>
             <label>Enter Username</label> <br/>
