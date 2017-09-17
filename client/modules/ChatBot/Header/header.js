@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './header.css';
-import { Button } from 'semantic-ui-react';
+import { Dropdown } from 'semantic-ui-react';
 
 class Header extends React.Component{
 	constructor(props){
@@ -8,9 +8,22 @@ class Header extends React.Component{
 	}
 
 	render(){
+		const options = [
+			{ key: 1, text: 'My profile' },
+			{ key: 2, text: 'Doctors'},
+			{ key: 3, text: 'SOS'}
+		]
+		
+
 		return (
 			<div className={styles.header}>
-				<Button className={styles.headerButton} icon='align justify' />
+			  <Dropdown className={styles.headerButton} text="Menu" icon='align justify' floating labeled button className='icon'>
+			    <Dropdown.Menu>
+			      <Dropdown.Item icon='user' text='My profile' />
+			      <Dropdown.Item icon='treatment' text='Doctors' />
+			      <Dropdown.Item icon='send outline' text='SOS' />
+			    </Dropdown.Menu>
+			  </Dropdown>
 			</div>		 
 		);
 	}
