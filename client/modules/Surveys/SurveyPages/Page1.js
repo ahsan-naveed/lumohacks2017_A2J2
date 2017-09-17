@@ -41,7 +41,7 @@ export default class Page1 extends React.Component {
         </div>
         <span style={myStyles.bodyText}>
           <h1>Nice to meet you!</h1>
-          <h2>I'm _____, a personal assistant trained to help you take care of your health.</h2>
+          <h2>I'm Maxby, a personal assistant trained to help you take care of your health.</h2>
         </span>
       </div>
     );

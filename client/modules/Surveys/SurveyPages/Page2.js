@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'semantic-ui-react';
 import styles from './pages.css';
 import graph from './graph.png';
 
