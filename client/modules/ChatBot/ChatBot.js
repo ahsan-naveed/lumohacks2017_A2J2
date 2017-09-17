@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './header/header.js';
 
 export default class ChatBot extends React.Component {
   constructor(props) {
@@ -7,7 +8,10 @@ export default class ChatBot extends React.Component {
   }
   render() {
     return (
-      <h2>Chatbot interface</h2>
+    	<div>
+	      <Header/>
+	      <h2>Chatbot interface</h2>
+	    </div>
     );
   }
 }
