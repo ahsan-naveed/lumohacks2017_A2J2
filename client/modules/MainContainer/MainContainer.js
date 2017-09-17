@@ -4,8 +4,11 @@ import NavBar from './NavBar';
 const styles = {
   display: 'flex',
   flexFlow: 'column',
-  height: '100%',
   width: '100%',
+  height: '100%',
+  margin: 'auto',
+  alignSelf: 'center',
+
 };
 
 export default class MainContainer extends React.Component {
