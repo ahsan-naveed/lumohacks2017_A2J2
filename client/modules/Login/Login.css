@@ -3,16 +3,16 @@
 .login {
  	margin: auto;
 	width: 100%;
-	background: -webkit-gradient(linear, left bottom, right bottom, from(#43C6AC), to(#F8FFAE));
-  background: -webkit-linear-gradient(top, #43C6AC,#F8FFAE);
+	/*background: -webkit-gradient(linear, left bottom, right bottom, from(#43C6AC), to(#F8FFAE));
+  background: -webkit-linear-gradient(top, #43C6AC,#F8FFAE);*/
+  background-color: #e0d979;
 	padding: 2em;
-	padding-top: 10em;
+	padding-top: 3em;
 	text-align: center;
 	font-weight: lighter;
 	font-family: "Raleway", sans-serif;
 	position: relative;
 	height: 100%;
-	/*padding-top: 3em;*/
 }
 
 .input {
@@ -24,6 +24,8 @@
 	left: 20%;
 }
 
-.title {
-	color: teal;
+.robot {
+	left: 30%;
+  position: relative;
+  transform: translateX(-50%);
 };
