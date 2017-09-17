@@ -17,13 +17,6 @@ class Header extends React.Component{
 
 		return (
 			<div className={styles.header}>
-			  <Dropdown className={styles.headerButton} icon='align justify' floating labeled button className='icon'>
-					<Dropdown.Menu>
-			      <Dropdown.Item icon='user' text='My profile' />
-			      <Dropdown.Item icon='treatment' text='Doctors' />
-			      <Dropdown.Item icon='send outline' text='SOS' />
-			    </Dropdown.Menu>
-			  </Dropdown>
 			</div>		 
 		);
 	}

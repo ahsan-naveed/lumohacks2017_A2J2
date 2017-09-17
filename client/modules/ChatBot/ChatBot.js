@@ -14,7 +14,9 @@ export default class ChatBot extends React.Component {
     return (
       <div className={styles.mainbody}>
         <Header />
-        <iframe src={this.state.bot_url}></iframe>
+        <iframe
+          style={{height: '100%', border: 'none'}}
+          src={this.state.bot_url}></iframe>
       </div>
     );
   }

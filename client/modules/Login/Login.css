@@ -11,6 +11,9 @@
 	font-family: "Raleway", sans-serif;
 	position: relative;
 	height: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 }
 
 .input {
@@ -19,11 +22,11 @@
 	align-items: center;
 	-webkit-box-align: center;
 	position:relative;
-	left: 20%;
+	/*left: 20%;*/
 }
 
 .robot {
 	left: 30%;
   position: relative;
   transform: translateX(-50%);
-};
+}
