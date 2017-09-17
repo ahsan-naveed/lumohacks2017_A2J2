@@ -16,6 +16,18 @@ const styles = {
   },
 };
 
+const styles = {
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    position: 'absolute',
+    backgroundColor: 'white',
+    opacity: 0.8,
+    zIndex: 99,
+  },
+};
+
 const NavBar = () => (
   <div style={styles.container}>
   	<Button.Group attached='top'>

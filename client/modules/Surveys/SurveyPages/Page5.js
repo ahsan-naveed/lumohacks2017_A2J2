@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'semantic-ui-react';
 import styles from './pages.css';
+import { redirect } from '../../../routes';
 
 const myStyles = {
   imageContainer: {
@@ -18,7 +19,6 @@ const myStyles = {
   },
 };
 
-
 export default class Page1 extends React.Component {
   constructor(props) {
     super(props);
@@ -28,7 +28,8 @@ export default class Page1 extends React.Component {
     return (
       <div className={styles['pages-container']}>
         <span style={myStyles.bodyText}>
-          <h3>I'll keep track of how well you're doing.</h3>
+          <h1>Are you ready?</h1>
+          <Button basic color="green" onClick={() => redirect('/chatbot')}>LET'S START!</Button>
         </span>
       </div>
     );

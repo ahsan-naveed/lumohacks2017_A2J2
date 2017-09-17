@@ -10,7 +10,8 @@ export default class Page1 extends React.Component {
   render() {
     return (
       <div className={styles['pages-container']}>
-        <h3>And I can suggest some tips along the way!</h3>
+        <Button basic color="orange">Click Me!</Button>
+        <Button basic color="red">Click Me!</Button>
       </div>
     );
   }

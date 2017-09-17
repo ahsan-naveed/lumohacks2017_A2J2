@@ -1,0 +1,17 @@
+.header{
+	width: 99%;
+	height: 80px;
+	border: 2px solid silver;
+	border-radius: 5px;
+	background: aliceblue;
+	margin: auto;
+	margin-top: 10px;
+	text-align: right;
+	position: relative;
+}
+
+.headerButton{
+	position: relative;
+	top: 20px;
+	right: 20px;
+}
