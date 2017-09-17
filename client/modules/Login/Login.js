@@ -3,7 +3,7 @@ import { redirect } from '../../routes.js';
 import { Form, Input, Button, Segment } from 'semantic-ui-react';
 import styles from './Login.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import robot from '../Surveys/SurveyPages/robot.png'
+import robot from './robot.png';
 
 class Login extends React.Component {
   constructor(props){
