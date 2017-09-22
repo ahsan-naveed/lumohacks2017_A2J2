@@ -1,3 +1,16 @@
+Maxby is an chatbot personal health assistant designed to collect information from the patient and assist with patient adherence to medication and treatment plans. 
+
+Maxby is bulit with the MERN scaffolding tool, specifically with a React frontend talking to a Node service running on Azure. In order to run Maxby: 
+
+1. clone this repository 
+2. Install and run MongoDB locally
+3. run npm install
+4. run npm start
+5. load up localhost:8000
+6. Enjoy the chat!
+
+Below are the setup instruction for MERN.
+
 ![](http://res.cloudinary.com/hashnode/image/upload/w_200/v1466495663/static_imgs/mern/v2/mernio-logo.png)
 
 # mern-starter
